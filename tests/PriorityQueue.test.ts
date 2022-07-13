@@ -8,12 +8,30 @@ it('test insert (1,1) then shift all', () => {
   expect(queue.size()).toEqual(0)
 })
 
+it('test shift empty queue', () => {
+  const queue = createMaxPriorityQueue<number>()
+  expect(queue.shift()).toBeUndefined()
+  expect(queue.size()).toEqual(0)
+})
+
 it('test insert (1,1) then remove it', () => {
   const queue = createMaxPriorityQueue<number>()
   const node = queue.insert(1, 1)
   expect(queue.size()).toEqual(1)
   queue.remove(node)
   expect(queue.size()).toEqual(0)
+})
+
+it('test insert (1,1),(2,2) then remove (2,2) twice', () => {
+  const queue = createMaxPriorityQueue<number>()
+  queue.insert(1, 1)
+  const node = queue.insert(2, 2)
+  expect(queue.size()).toEqual(2)
+  expect(queue.remove(node)).toEqual(true)
+  expect(queue.size()).toEqual(1)
+  expect(queue.remove(node)).toEqual(false)
+  expect(queue.size()).toEqual(1)
+  expect(queue.shift()?.value).toEqual(1)
 })
 
 it('test insert (1,1),(2,2),(3,3) then shift all', () => {

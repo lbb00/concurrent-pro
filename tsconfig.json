@@ -2,10 +2,11 @@
   "compilerOptions": {
     "removeComments": true,
     "sourceMap": true,
-    "lib": ["es2015", "DOM"],
+    "lib": ["es2020", "DOM"],
     "target": "esnext",
     "declaration": true,
-    "declarationDir": "types"
+    "declarationDir": "types",
+    "esModuleInterop": true
   },
   "include": ["src/**/*"],
   "exclude": ["node_modules"]
