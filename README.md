@@ -1,5 +1,11 @@
 # concurrent-pro
 
+[![Npm](https://badgen.net/npm/v/concurrent-pro)](https://www.npmjs.com/package/concurrent-pro)
+[![Bundlephobia](https://badgen.net/bundlephobia/minzip/concurrent-pro)](https://bundlephobia.com/result?p=concurrent-pro)
+[![Coverage](https://img.shields.io/codecov/c/github/lbb00/concurrent-pro.svg)](https://codecov.io/gh/lbb00/concurrent-pro)
+[![License](https://img.shields.io/github/license/lbb00/concurrent-pro.svg)](https://github.com/lbb00/concurrent-pro/blob/master/LICENSE)
+[![License](https://img.shields.io/npm/dt/concurrent-pro.svg)](https://www.npmjs.com/package/concurrent-pro)
+
 Limit and prioritize the concurrency.
 
 ## Usage

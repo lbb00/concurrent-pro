@@ -1,7 +1,7 @@
 {
   "name": "concurrent-pro",
-  "version": "0.0.1",
-  "description": "",
+  "version": "0.1.0",
+  "description": "Limit and prioritize the concurrency.",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "types": "types/index.d.ts",
@@ -14,7 +14,16 @@
     "test": "jest --coverage"
   },
   "author": "lbb",
-  "license": "MIT",
+  "license": "UNLICENSE (HTTP://UNLICENSE.ORG/)",
+  "keywords": [
+    "concurrent",
+    "limit",
+    "priority"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lbb00/concurrent-pro.git"
+  },
   "devDependencies": {
     "@types/jest": "^28.1.4",
     "esbuild": "^0.14.49",
