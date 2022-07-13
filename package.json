@@ -1,6 +1,6 @@
 {
   "name": "concurrent-pro",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Limit and prioritize the concurrency.",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
@@ -18,7 +18,8 @@
   "keywords": [
     "concurrent",
     "limit",
-    "priority"
+    "priority",
+    "typescript"
   ],
   "repository": {
     "type": "git",
