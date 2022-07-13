@@ -3,15 +3,15 @@
   "version": "0.0.1",
   "description": "",
   "main": "dist/index.js",
-  "type": "module",
+  "module": "dist/index.esm.js",
   "types": "types/index.d.ts",
   "files": [
     "dist",
     "types"
   ],
   "scripts": {
-    "build": "node scripts/build.js && tsc --emitDeclarationOnly",
-    "test": "jest"
+    "build": "node scripts/build.mjs && tsc --emitDeclarationOnly",
+    "test": "jest --coverage"
   },
   "author": "lbb",
   "license": "MIT",

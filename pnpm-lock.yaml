@@ -1,4 +1,4 @@
-lockfileVersion: 5.4
+lockfileVersion: 5.3
 
 specifiers:
   '@types/jest': ^28.1.4
@@ -11,7 +11,7 @@ devDependencies:
   '@types/jest': 28.1.4
   esbuild: 0.14.49
   jest: 28.1.2
-  ts-jest: 28.0.5_cwl72qy3gbfinomrolpnxvxnhm
+  ts-jest: 28.0.5_1597fd431b304a86b99172dedbd6ed3b
   typescript: 4.7.4
 
 packages:
@@ -2383,7 +2383,7 @@ packages:
       is-number: 7.0.0
     dev: true
 
-  /ts-jest/28.0.5_cwl72qy3gbfinomrolpnxvxnhm:
+  /ts-jest/28.0.5_1597fd431b304a86b99172dedbd6ed3b:
     resolution: {integrity: sha512-Sx9FyP9pCY7pUzQpy4FgRZf2bhHY3za576HMKJFs+OnQ9jS96Du5vNsDKkyedQkik+sEabbKAnCliv9BEsHZgQ==}
     engines: {node: ^12.13.0 || ^14.15.0 || ^16.10.0 || >=17.0.0}
     hasBin: true
