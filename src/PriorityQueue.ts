@@ -36,15 +36,16 @@ export function createMaxPriorityQueue<T>() {
   function remove(node: PriorityQueueNode<T>) {
     const index = queue.indexOf(node)
     if (index === -1) {
-      return
+      return false
     }
     if (index === queue.length - 1) {
       queue.pop()
-      return
+      return true
     }
 
     queue[index] = queue.pop()
     peekDown(index)
+    return true
   }
 
   function peekUp(i: number) {
